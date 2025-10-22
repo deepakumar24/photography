@@ -43,15 +43,13 @@
     font-weight: 800;
 }
 .sidebar_menu .btn_two i{
-    position: absolute;
+   position: absolute;
    color:grey ;
    font-size: 25px;
    line-height: 60px;
-   position: absolute;
    left: 280px;
    opacity: 0;
    cursor: pointer;
-
 }   
 .sidebar_menu .menu{
     position: absolute;
@@ -111,5 +109,6 @@
 }
 #check:checked ~  .sidebar_menu .btn_two i{
     opacity: 1;
-    /* transition: all 0.5s ease; */
+    transition: all 0.5s ease;
 }
+/** ~ ye wala sign sibling ko denote karta h **/
